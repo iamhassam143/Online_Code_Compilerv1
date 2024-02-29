@@ -1,0 +1,111 @@
+.container-signin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #1c1e29; /* Light red background color */
+}
+
+.form-container {
+    width: 300px;
+    border: 1px solid #282a36; /* Red border */
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #eee; /* White background color */
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #282a36; /* Red text color */
+}
+
+.sign-in,
+.sign-up {
+    display: flex;
+    flex-direction: column;
+}
+
+#otp {
+    margin-bottom: 10px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #47cf73; /* Red button background color */
+    color: #1c1e29; /* White text color */
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* sign-in section */
+
+h2 {
+    color: #282a36; /* Red text color */
+}
+
+.sign-in form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sign-in input[type="text"],
+.sign-in input[type="password"] {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #368654; /* Red border */
+    border-radius: 4px;
+}
+
+.sign-in button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #47cf73; /* Red button background color */
+    color: #1c1e29; /* White text color */
+    cursor: pointer;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.sign-in button:last-child {
+    margin-top: 20px;
+}
+
+/* sign-up section */
+
+.sign-up form {
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-up input[type="text"],
+.sign-up input[type="password"] {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #368654; /* Red border */
+    border-radius: 4px;
+}
+
+.sign-up button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #47cf73; /* Red button background color */
+    color: #1c1e29; /* White text color */
+    cursor: pointer;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+button:hover{
+    background-color: #368654;
+}
+
+.sign-up button:last-child {
+    margin-top: 20px;
+}
